@@ -2,16 +2,41 @@
 
 body{
   background-color: black;
-  color: green;
+  color: rgb(65, 203, 65);
   font-family: "Silkscreen", sans-serif;
   font-weight: 200;
   font-style: normal;
+}
+
+img{
+  height: 150px;
 }
 
 p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 50%;
 }
+
+
+
+ul, li, b{
+  list-style: disc;
+  list-style-color: green;
+}
+
+li{
+  list-style-type: circle;
+}
+
+ul, li, a{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+  text-decoration: solid;
+  
+  
+}
+
 .App{
   display: flex;
   justify-content: center;
