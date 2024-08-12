@@ -22,7 +22,7 @@ function App() {
         and mathematics. These disciplines form the foundation of computer
         science, and I find myself constantly amazed by how abstract
         mathematical concepts translate into the software we use every day.
-        <ul>
+        <ul classname="list"> 
 
           <ul>
             <li>

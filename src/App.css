@@ -2,10 +2,11 @@
 
 body{
   background-color: black;
-  color: rgb(65, 203, 65);
+  color: rgb(24, 95, 24);
   font-family: "Silkscreen", sans-serif;
   font-weight: 200;
   font-style: normal;
+  font-size: 30px;
 }
 
 img{
@@ -72,13 +73,17 @@ ul, li, a{
 
 @media screen and (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 300px) {
   body {
     font-size: 10px;
     width: 100%;
+  }
+
+  .list{
+    margin-right: 40px;
   }
 }
 
