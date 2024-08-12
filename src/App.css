@@ -2,7 +2,7 @@
 
 body{
   background-color: black;
-  color: rgb(24, 95, 24);
+  color: rgb(24, 134, 21);
   font-family: "Silkscreen", sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -93,9 +93,10 @@ ul, li, a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 10px;
     text-decoration: solid;
-    margin-right: -20px;
+    margin-left: -8px;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   
