@@ -34,11 +34,7 @@ function App() {
               </li>
               <br />
               <li>
-                <a href="">random knowledge / articles... &gt;</a>
-              </li>
-              <br />
-              <li>
-                <a href="">photography... &gt;</a>
+                <a href="">random knowledge... &gt;</a>
               </li>
               <br />
             </ul>
@@ -52,7 +48,7 @@ function App() {
               </li>
               <br />
               <li>
-                <a href="">email me !</a>
+                <a href="https://x.com/Timothy9199">X-twitter</a>
               </li>
             </ul>
           </ul>

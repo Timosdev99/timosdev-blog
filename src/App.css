@@ -76,16 +76,32 @@ ul, li, a{
     font-size: 20px;
   }
 }
+
 @media screen and (min-width: 300px) {
   body {
     font-size: 10px;
     width: 100%;
   }
 
-  .list{
-    margin-right: 40px;
-  }
+  
 }
+
+@media screen and (min-width: 300px) {
+ 
+  ul, li, a{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    text-decoration: solid;
+    margin-right: -20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  
+}
+
 
 @keyframes App-logo-spin {
   from {
