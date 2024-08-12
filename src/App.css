@@ -21,7 +21,6 @@ p{
 
 ul, li, b{
   list-style: disc;
-  list-style-color: green;
 }
 
 li{
@@ -68,6 +67,19 @@ ul, li, a{
 
 .App-link {
   color: #61dafb;
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 300px) {
+  body {
+    font-size: 10px;
+    width: 100%;
+  }
 }
 
 @keyframes App-logo-spin {
