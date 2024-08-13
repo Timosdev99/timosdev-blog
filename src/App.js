@@ -1,5 +1,7 @@
 import "./App.css";
 import gif from "./gif/Q1Ns.gif";
+import React from "react";
+import project from "./project";
 
 function App() {
   return (
@@ -22,7 +24,7 @@ function App() {
         and mathematics. These disciplines form the foundation of computer
         science, and I find myself constantly amazed by how abstract
         mathematical concepts translate into the software we use every day.
-        <ul classname="list"> 
+        <ul> 
 
           <ul>
             <li>
@@ -30,11 +32,11 @@ function App() {
             </li>
             <ul>
               <li>
-                <a href= ''>my projects... &gt;</a>
+                <a href= {project}>my projects... &gt;</a>
               </li>
               <br />
               <li>
-                <a href="">random knowledge... &gt;</a>
+                <a href="#">random knowledge... &gt;</a>
               </li>
               <br />
             </ul>
