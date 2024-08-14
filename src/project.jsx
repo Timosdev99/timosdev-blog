@@ -10,17 +10,17 @@ function Projects() {
       <p>
         <ul>
           <ul>
-            <li>
-              <b> take a look at my projects</b>
+            <li className="projects">
+              <b className="projects"> PROJECTS :)</b>
             </li>
             <br/>
             <ul>
               <li>
-                <a href="https://github.com/Timosdev99/health-compliance-API">Project 1</a>
+                <a  className="projects1" href="https://github.com/Timosdev99/health-compliance-API">Project 1: (A safety health and compliance api)</a>
               </li>
               <br />
               <li>
-                <a href="#">random knowledge... &gt;</a>
+                <a  className="projects2" href="https://github.com/Timosdev99/blog-api-s-">Project 2: (an api for writing blogs)</a>
               </li>
               <br />
             </ul>

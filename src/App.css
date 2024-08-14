@@ -6,7 +6,7 @@ body{
   font-family: "Silkscreen", sans-serif;
   font-weight: 200;
   font-style: normal;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 img{
@@ -70,6 +70,24 @@ ul, li, a{
   color: #61dafb;
 }
 
+.projects{
+  color: green;
+  font-size: 20px;
+  font-weight: 20;
+  list-style: none;
+}
+
+.projects1, .projects2{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.description{
+  text-decoration: none;
+  font-size: 15px;
+}
 
 @media screen and (max-width: 768px) {
   body {
