@@ -1,21 +1,22 @@
 import "./App.css";
 import gif from "./gif/Q1Ns.gif";
+import { Link } from "react-router-dom";
 
-function project() {
+function Projects() {
   return (
     <div className="App">
       <img src={gif} alt="My gif" />
       <h1>Hey, Timosdev Here</h1>
       <p>
-        <ul> 
-
+        <ul>
           <ul>
             <li>
-              <b> take a look at </b>
+              <b> take a look at my projects</b>
             </li>
+            <br/>
             <ul>
               <li>
-                <a href= '#'>my projects... &gt;</a>
+                <a href="https://github.com/Timosdev99/health-compliance-API">Project 1</a>
               </li>
               <br />
               <li>
@@ -27,13 +28,17 @@ function project() {
               <b> my links </b>
             </li>
             <ul>
-            <br />
+              <br />
               <li>
                 <a href="https://github.com/Timosdev99">github</a>
               </li>
               <br />
               <li>
                 <a href="https://x.com/Timothy9199">X-twitter</a>
+              </li>
+              <br/>
+              <li>
+                <Link to="/">Back to Home</Link>
               </li>
             </ul>
           </ul>
@@ -43,4 +48,4 @@ function project() {
   );
 }
 
-export default project;
+export default Projects;

@@ -1,9 +1,10 @@
 import "./App.css";
 import gif from "./gif/Q1Ns.gif";
 import React from "react";
-import project from "./project";
+import Projects from "./project";
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <img src={gif} alt="My gif" />
@@ -24,19 +25,18 @@ function App() {
         and mathematics. These disciplines form the foundation of computer
         science, and I find myself constantly amazed by how abstract
         mathematical concepts translate into the software we use every day.
-        <ul> 
-
+        <ul>
           <ul>
             <li>
               <b> take a look at </b>
             </li>
             <ul>
               <li>
-                <a href= {project}>my projects... &gt;</a>
+                <Link to="/projects">my projects... &gt;</Link>
               </li>
               <br />
               <li>
-                <a href="#">random knowledge... &gt;</a>
+                <a href="">random knowledge... &gt;</a>
               </li>
               <br />
             </ul>
@@ -44,7 +44,7 @@ function App() {
               <b> my links </b>
             </li>
             <ul>
-            <br />
+              <br />
               <li>
                 <a href="https://github.com/Timosdev99">github</a>
               </li>
@@ -57,6 +57,17 @@ function App() {
         </ul>
       </p>
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
+    </Router>
   );
 }
 
