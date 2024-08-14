@@ -39,6 +39,10 @@ function Home() {
                 <a href="">random knowledge... &gt;</a>
               </li>
               <br />
+              <li>
+                <a href="">To-do / Learning... &gt;</a>
+              </li>
+            <br/>
             </ul>
             <li>
               <b> my links </b>

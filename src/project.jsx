@@ -7,7 +7,7 @@ function Projects() {
     <div className="App">
       <img src={gif} alt="My gif" />
       <h1>Hey, Timosdev Here</h1>
-      <p>
+      <p className="para">
         <ul>
           <ul>
             <li className="projects">
@@ -23,19 +23,13 @@ function Projects() {
                 <a  className="projects2" href="https://github.com/Timosdev99/blog-api-s-">Project 2: (an api for writing blogs)</a>
               </li>
               <br />
+              <li>
+                <a  className="projects2" href="https://github.com/Timosdev99/user-authentication-with-node-js">Project 3: (A user authentication api on javascript)</a>
+              </li>
             </ul>
-            <li>
-              <b> my links </b>
-            </li>
+
             <ul>
-              <br />
-              <li>
-                <a href="https://github.com/Timosdev99">github</a>
-              </li>
-              <br />
-              <li>
-                <a href="https://x.com/Timothy9199">X-twitter</a>
-              </li>
+            
               <br/>
               <li>
                 <Link to="/">Back to Home</Link>
