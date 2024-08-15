@@ -2,6 +2,7 @@ import "./App.css";
 import gif from "./gif/Q1Ns.gif";
 import React from "react";
 import Projects from "./project";
+import Learning from "./todo";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 function Home() {
@@ -40,7 +41,7 @@ function Home() {
               </li>
               <br />
               <li>
-                <a href="">To-do / Learning... &gt;</a>
+                <Link to="/learning">To-do / Learning... &gt;</Link>
               </li>
             <br/>
             </ul>
@@ -70,6 +71,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/learning" element={<Learning />} />
       </Routes>
     </Router>
   );

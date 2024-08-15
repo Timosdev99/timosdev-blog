@@ -2,7 +2,7 @@ import "./App.css";
 import gif from "./gif/Q1Ns.gif";
 import { Link } from "react-router-dom";
 
-function knowlegde() {
+function Learning() {
   return (
     <div className="App">
       <img src={gif} alt="My gif" />
@@ -11,7 +11,7 @@ function knowlegde() {
         <ul>
           <ul>
             <li className="projects">
-              <b className="projects"> Random knowlegde :)</b>
+              <b className="projects"> To-do / Learning :)</b>
             </li>
             <br/>
             <ul>
@@ -42,4 +42,4 @@ function knowlegde() {
   );
 }
 
-export default knowlegde;
+export default Learning;
