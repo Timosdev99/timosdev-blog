@@ -16,7 +16,7 @@ function Learning() {
             <br/>
             <ul>
               <li>
-                <a  className="projects1"> 1: </a>
+                <a  className="projects1"> Currrently learning more of how computers work and also learning more math </a>
               </li>
               <br />
               <li>
