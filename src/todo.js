@@ -16,11 +16,11 @@ function Learning() {
             <br/>
             <ul>
               <li>
-                <a  className="projects1"> Currrently learning more of how computers work and also learning more math </a>
+                <a  className="projects1"> Currrently learning more on how computers work and also learning more math </a>
               </li>
               <br />
               <li>
-                <a  className="projects2"> 2: </a>
+                <a  className="projects2"> coding my way into ML</a>
               </li>
               <br />
               <li>

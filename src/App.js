@@ -3,6 +3,7 @@ import gif from "./gif/Q1Ns.gif";
 import React from "react";
 import Projects from "./project";
 import Learning from "./todo";
+import Knowlegde from "./random-knowlegde";
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 function Home() {
@@ -72,6 +73,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/learning" element={<Learning />} />
+        <Route path="/Knowlegde" element={<Knowlegde />} />
       </Routes>
     </Router>
   );

@@ -2,7 +2,7 @@ import "./App.css";
 import gif from "./gif/Q1Ns.gif";
 import { Link } from "react-router-dom";
 
-function knowlegde() {
+function Knowlegde() {
   return (
     <div className="App">
       <img src={gif} alt="My gif" />
@@ -42,4 +42,4 @@ function knowlegde() {
   );
 }
 
-export default knowlegde;
+export default Knowlegde;
