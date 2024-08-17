@@ -1,5 +1,6 @@
 import "./App.css";
 import gif from "./gif/Q1Ns.gif";
+import gif2 from "./gif/3BBS.gif"
 import { Link } from "react-router-dom";
 
 function Knowlegde() {
@@ -37,6 +38,8 @@ function Knowlegde() {
             </ul>
           </ul>
         </ul>
+        <br/>
+        < img className="gif2" src={gif2} alt="My gif" />
       </p>
     </div>
   );
