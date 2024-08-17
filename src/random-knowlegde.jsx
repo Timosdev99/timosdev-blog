@@ -28,7 +28,7 @@ function Knowlegde() {
               </li>
             </ul>
 
-            <ul>
+            <ul> 
             
               <br/>
               <li>
