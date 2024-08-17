@@ -13,7 +13,7 @@ function Home() {
       <img src={gif} alt="My gif" />
       <h1>Hey, Timosdev Here</h1>
       <p>
-        I love coding, physics and math
+       <span className="intro"> I love coding, physics and math
         <br />
         As a backend developer, my world revolves around the intricate dance of
         data and logic that powers the digital experiences we interact with
@@ -27,7 +27,7 @@ function Home() {
         My love for coding is deeply intertwined with my fascination for physics
         and mathematics. These disciplines form the foundation of computer
         science, and I find myself constantly amazed by how abstract
-        mathematical concepts translate into the software we use every day.
+        mathematical concepts translate into the software we use every day.</span>
         <ul>
           <ul>
             <li>
