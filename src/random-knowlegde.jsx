@@ -16,7 +16,7 @@ function Knowlegde() {
             <br/>
             <ul>
               <li>
-                <a  className="projects1"> 1: </a>
+                <a  className="projects1"> 1: About to learn more on neural networks and i'm going to be using brain.js(updating soon) </a>
               </li>
               <br />
               <li>

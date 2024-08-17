@@ -38,7 +38,7 @@ function Home() {
               </li>
               <br />
               <li>
-                <a href="">random knowledge... &gt;</a>
+                <Link to="/Knowlegde">random knowledge... &gt;</Link>
               </li>
               <br />
               <li>
