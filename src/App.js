@@ -1,6 +1,6 @@
 import "./App.css";
 import gif from "./gif/Q1Ns.gif";
-import gif2 from "./gif/3BBS.gif"
+import gif3 from "./gif/3BBS.gif"
 import React from "react";
 import Projects from "./project";
 import Learning from "./todo";
@@ -63,7 +63,7 @@ function Home() {
           </ul>
         </ul>
         <br/>
-        < img className="gif2, gif3" src={gif2} alt="My gif" />
+        < img className="gif3" src={gif3} alt="My gif" />
       </p>
     </div>
   );
