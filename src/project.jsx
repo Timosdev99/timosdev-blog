@@ -25,6 +25,9 @@ function Projects() {
               <br />
               <li>
                 <a  className="projects2" href="https://github.com/Timosdev99/user-authentication-with-node-js">Project 3: (A user authentication api on javascript)</a>
+              </li>  <br />
+              <li>
+                <a  className="projects2" href="https://github.com/Timosdev99/websocket-protocol-">Project 4: (websocket protocol from scratch using javascript)</a>
               </li>
             </ul>
 
