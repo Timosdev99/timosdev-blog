@@ -25,7 +25,7 @@ function Knowlegde() {
               </li>
               <br />
               <li>
-                <a  className="projects2"> 3:</a>
+                <a  className="projects2" href="https://github.com/Timosdev99/luhn-algorithm"> 3: learned about lahn algorithm and implemented in javascript</a>
               </li>
             </ul>
 
