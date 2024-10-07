@@ -17,11 +17,11 @@ function Knowlegde() {
             <br/>
             <ul>
               <li>
-                <a  className="projects1"> 1: About to learn more on neural networks and i'm going to be using TensorFlow.js(updating soon) </a>
+                <a  className="projects1"> 1: learning low level programming type of shii </a>
               </li>
               <br />
               <li>
-                <a  className="projects2"> 2: </a>
+                <a  className="projects2"> 2: recently learned about distributed database management system <a href="https://github.com/Timosdev99/distributed-database-management-system">check it out</a> </a>
               </li>
               <br />
               <li>

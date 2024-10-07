@@ -20,7 +20,7 @@ function Projects() {
               </li>
               <br />
               <li>
-                <a  className="projects2" href="https://github.com/Timosdev99/blog-api-s-">Project 2: (an api for writing blogs)</a>
+                <a  className="projects2" href="https://github.com/Timosdev99/cli">Project 2: (a command line interface written in js for checking crypto)</a>
               </li>
               <br />
               <li>
