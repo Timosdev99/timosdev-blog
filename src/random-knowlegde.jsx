@@ -17,7 +17,7 @@ function Knowlegde() {
             <br/>
             <ul>
               <li>
-                <a  className="projects1"> 1: learning low level programming type of shii </a>
+                <a  className="projects1"> 1: learning low level programming type of shii c/c++ </a>
               </li>
               <br />
               <li>
