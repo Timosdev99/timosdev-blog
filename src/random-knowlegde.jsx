@@ -21,7 +21,7 @@ function Knowlegde() {
               </li>
               <br />
               <li>
-                <a  className="projects2"> 2: recently learned about distributed database management system <a href="https://github.com/Timosdev99/distributed-database-management-system">check it out</a> </a>
+                <a  className="projects2" href="https://github.com/Timosdev99/distributed-database-management-system"> 2: recently learned about distributed database management system check it out  </a>
               </li>
               <br />
               <li>
