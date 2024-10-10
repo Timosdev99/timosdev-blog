@@ -10,7 +10,7 @@ function Projects() {
       <p className="para">
         <ul>
           <ul>
-            <li className="projects">
+            <li className="projects">   
               <b className="projects"> PROJECTS :)</b>
             </li>
             <br/>
