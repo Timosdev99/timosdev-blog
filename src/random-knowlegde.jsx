@@ -45,4 +45,4 @@ function Knowlegde() {
   );
 }
 
-export default Knowlegde;
+export default Knowlegde; 
